@@ -1,0 +1,20 @@
+#!/bin/bash
+
+set -e
+
+echo "Installing official packages..."
+sudo pacman -S --needed - < packages/official.txt
+
+echo "Installing flatpak packages..."
+flatpak install flathub com.spotify.Client
+flatpak run com.spotify.Client
+flatpak install flathub io.missioncenter.MissionCenter
+flatpak run io.missioncenter.MissionCenter
+flatpak install flathub com.valvesoftware.Steam
+flatpak run com.valvesoftware.Steam
+
+echo "Restoring configuration..."
+cp -r home/.config/* ~/.config/
+cp home/.bashrc ~/.bashrc
+
+echo "Done!"
