@@ -1,0 +1,3 @@
+com.spotify.Client
+com.valvesoftware.Steam
+io.missioncenter.MissionCenter
