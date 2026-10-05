@@ -12,6 +12,3 @@ if [ "$(tty)" = "/dev/tty1" ]; then
         exec sway
     fi
 fi
-
-# Hermes Agent command
-case ":$PATH:" in *":$HOME/.local/bin:"*) ;; *) export PATH="$HOME/.local/bin:$PATH" ;; esac
