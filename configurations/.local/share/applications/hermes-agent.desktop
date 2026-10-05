@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Hermes Agent
+Comment=Local AI agent
+Exec=kitty --title "Hermes Agent" /home/makineitor/.local/bin/hermes-agent
+Icon=hermes
+Terminal=false
+Type=Application
+Categories=Utility;
