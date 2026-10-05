@@ -7,6 +7,7 @@ firefox
 flatpak
 git
 intel-ucode
+intel-vulkan
 kitty
 less
 libreoffice
@@ -18,6 +19,7 @@ networkmanager
 nm-sidebar
 nvidia-open
 nvidia-utils
+nvim
 os-prober
 pavucontrol
 pipewire-alsa
